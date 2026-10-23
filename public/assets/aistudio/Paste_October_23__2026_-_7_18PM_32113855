@@ -1,0 +1,503 @@
+{term: "Variable", phonetic: "/ˈvɛəriəbəl/", meaning: "Biến số", formula: "x, y"},
+          {term: "Numerator", phonetic: "/ˈnuːməreɪtər/", meaning: "Tử số", formula: "a in a/b"},
+          {term: "Denominator", phonetic: "/dɪˈnɒmɪneɪtər/", meaning: "Mẫu số", formula: "b in a/b"},
+          {term: "Simplify", phonetic: "/ˈsɪmplɪfaɪ/", meaning: "Rút gọn", formula: "Reduce fraction"},
+          {term: "Evaluate", phonetic: "/ɪˈvæljueɪt/", meaning: "Tính giá trị", formula: "Find numeric result"},
+          {term: "Factor", phonetic: "/ˈfæktər/", meaning: "Nhân tử", formula: "ab = a·b"},
+          {term: "Expand", phonetic: "/ɪkˈspænd/", meaning: "Khai triển", formula: "(a+b)²"},
+          {term: "Solution", phonetic: "/səˈluːʃən/", meaning: "Nghiệm (của PT)", formula: "Root / Value of x"},
+          {term: "Identity", phonetic: "/aɪˈdɛntɪti/", meaning: "Hằng đẳng thức", formula: "Notable identity"}
+        ]
+      },
+      {
+        id: 2,
+        titleEn: "Unit 2: Linear Equations & Systems",
+        titleVi: "Unit 2: Phương trình & Hệ phương trình bậc nhất",
+        descEn: "Linear equations, Systems, Substitution, Elimination",
+        descVi: "Hệ phương trình bậc nhất hai ẩn, Phương pháp thế & cộng",
+        words: [
+          {term: "Linear equation", phonetic: "/ˈlɪniər ɪˈkweɪʒən/", meaning: "Phương trình bậc nhất", formula: "ax + b = 0"},
+          {term: "System of equations", phonetic: "/ˈsɪstəm əv ɪˈkweɪʒənz/", meaning: "Hệ phương trình", formula: "{ax+by=c"},
+          {term: "Substitution method", phonetic: "/ˌsʌbstɪˈtjuːʃən ˈmɛθəd/", meaning: "Phương pháp thế", formula: "x = ... substitute"},
+          {term: "Elimination method", phonetic: "/ɪˌlɪmɪˈneɪʃən ˈmɛθəd/", meaning: "Phương pháp cộng đại số", formula: "Add/Subtract equations"},
+          {term: "Consistent system", phonetic: "/kənˈsɪstənt ˈsɪstəm/", meaning: "Hệ có nghiệm", formula: "Unique or infinitely many"},
+          {term: "Inconsistent system", phonetic: "/ˌɪnkənˈsɪstənt/", meaning: "Hệ vô nghiệm", formula: "Parallel lines (no solution)"},
+          {term: "Dependent system", phonetic: "/dɪˈpɛndənt ˈsɪstəm/", meaning: "Hệ có vô số nghiệm", formula: "Coincident lines"},
+          {term: "Slope", phonetic: "/sloʊp/", meaning: "Hệ số góc", formula: "m in y = mx + b"},
+          {term: "Y-intercept", phonetic: "/waɪ ˈɪntərsɛpt/", meaning: "Tung độ gốc", formula: "b in y = mx + b"},
+          {term: "X-intercept", phonetic: "/ɛks ˈɪntərsɛpt/", meaning: "Hoành độ giao điểm Ox", formula: "y = 0"},
+          {term: "Parallel", phonetic: "/ˈpærəˌlɛl/", meaning: "Song song", formula: "m₁ = m₂, b₁ ≠ b₂"},
+          {term: "Perpendicular", phonetic: "/ˌpɜːrpənˈdɪkjələr/", meaning: "Vuông góc", formula: "m₁ · m₂ = -1"},
+          {term: "Coordinates", phonetic: "/koʊˈɔːrdɪnɪts/", meaning: "Tọa độ", formula: "(x, y)"},
+          {term: "Origin", phonetic: "/ˈɔːrɪdʒɪn/", meaning: "Gốc tọa độ", formula: "(0, 0)"},
+          {term: "Graph", phonetic: "/ɡræf/", meaning: "Đồ thị", formula: "Visual line/curve"},
+          {term: "Intersection", phonetic: "/ˌɪntərˈsɛkʃən/", meaning: "Giao điểm", formula: "Common point"},
+          {term: "Parameter", phonetic: "/pəˈræmɪtər/", meaning: "Tham số", formula: "m, k in equations"},
+          {term: "Equivalent", phonetic: "/ɪˈkwɪvələnt/", meaning: "Tương đương", formula: "⇔"},
+          {term: "Condition", phonetic: "/kənˈdɪʃən/", meaning: "Điều kiện xác định", formula: "Valid domain"},
+          {term: "Word problem", phonetic: "/wɜːrd ˈprɒbləm/", meaning: "Bài toán đố lập hệ", formula: "Practical application"}
+        ]
+      },
+      {
+        id: 3,
+        titleEn: "Unit 3: Inequalities & Radicals",
+        titleVi: "Unit 3: Bất đẳng thức & Biến đổi Căn thức",
+        descEn: "Inequalities, Interval, Radical expressions, Rationalize",
+        descVi: "Bất phương trình, Biểu thức chứa căn, Trục căn thức ở mẫu",
+        words: [
+          {term: "Inequality", phonetic: "/ˌɪnɪˈkwɒlɪti/", meaning: "Bất phương trình / BĐT", formula: ">, <, ≥, ≤"},
+          {term: "Strict inequality", phonetic: "/strɪkt ˌɪnɪˈkwɒlɪti/", meaning: "Bất đẳng thức ngặt", formula: "> or <"},
+          {term: "Interval", phonetic: "/ˈɪntərvəl/", meaning: "Khoảng / Đoạn", formula: "[a, b] or (a, b)"},
+          {term: "Number line", phonetic: "/ˈnʌmbər laɪn/", meaning: "Trục số", formula: "Real line graph"},
+          {term: "Radical sign", phonetic: "/ˈrædɪkəl saɪn/", meaning: "Dấu căn thức", formula: "√"},
+          {term: "Radicand", phonetic: "/ˈrædɪkænd/", meaning: "Biểu thức dưới dấu căn", formula: "a in √a"},
+          {term: "Rationalize", phonetic: "/ˈræʃənəlaɪz/", meaning: "Trục căn thức ở mẫu", formula: "Remove root from denominator"},
+          {term: "Conjugate", phonetic: "/ˈkɒndʒʊɡət/", meaning: "Biểu thức liên hợp", formula: "a-√b vs a+√b"},
+          {term: "Extract root", phonetic: "/ɪkˈstrækt ruːt/", meaning: "Đưa thừa số ra ngoài dấu căn", formula: "√(a²b) = a√b"},
+          {term: "Domain", phonetic: "/doʊˈmeɪn/", meaning: "Điều kiện xác định (ĐKXĐ)", formula: "A ≥ 0"},
+          {term: "Extraneous root", phonetic: "/ɪkˈstreɪniəs ruːt/", meaning: "Nghiệm ngoại lai", formula: "Invalid solved root"},
+          {term: "Strictly greater", phonetic: "/ˈstrɪktli ˈɡreɪtər/", meaning: "Lớn hơn hẳn", formula: ">"},
+          {term: "At least", phonetic: "/æt liːst/", meaning: "Ít nhất / Không nhỏ hơn", formula: "≥"},
+          {term: "At most", phonetic: "/æt moʊst/", meaning: "Tối đa / Không lớn hơn", formula: "≤"},
+          {term: "Equivalent inequality", phonetic: "/ɪˈkwɪvələnt/", meaning: "Bất phương trình tương đương", formula: "Same solution set"},
+          {term: "Properties", phonetic: "/ˈprɒpərtiz/", meaning: "Tính chất (BĐT)", formula: "Addition/Multiplication rule"},
+          {term: "Non-negative", phonetic: "/nɒn ˈnɛɡətɪv/", meaning: "Không âm", formula: "≥ 0"},
+          {term: "Positive", phonetic: "/ˈpɒzətɪv/", meaning: "Dương", formula: "> 0"},
+          {term: "Negative", phonetic: "/ˈnɛɡətɪv/", meaning: "Âm", formula: "< 0"},
+          {term: "Simplify radical", phonetic: "/ˈsɪmplɪfaɪ ˈrædɪkəl/", meaning: "Rút gọn biểu thức chứa căn", formula: "Combine like radicals"}
+        ]
+      },
+      {
+        id: 4,
+        titleEn: "Unit 4: Quadratic Functions & Viète's Theorem",
+        titleVi: "Unit 4: Hàm số y = ax² & Hệ thức Viète",
+        descEn: "Quadratic function, Parabola, Vertex, Discriminant, Viète's formulas",
+        descVi: "Hàm số bậc hai, Parabol, Đỉnh, Delta và định lý Viète",
+        words: [
+          {term: "Quadratic function", phonetic: "/kwɒˈdrætɪk ˈfʌŋkʃən/", meaning: "Hàm số bậc hai", formula: "y = ax² + bx + c"},
+          {term: "Parabola", phonetic: "/pəˈræbələ/", meaning: "Đường Parabol", formula: "U-shaped curve"},
+          {term: "Vertex", phonetic: "/ˈvɜːrtɛks/", meaning: "Đỉnh Parabol", formula: "I(-b/2a, -Δ/4a)"},
+          {term: "Axis of symmetry", phonetic: "/ˈæksɪs əv ˈsɪmɪtri/", meaning: "Trục đối xứng", formula: "x = -b/2a"},
+          {term: "Discriminant", phonetic: "/dɪˈskrɪmɪnənt/", meaning: "Biệt thức Delta (Δ)", formula: "Δ = b² - 4ac"},
+          {term: "Viète's formulas", phonetic: "/viˈɛt fɔːrmjəlz/", meaning: "Hệ thức Viète", formula: "x₁ + x₂ = -b/a"},
+          {term: "Real roots", phonetic: "/riːəl ruːts/", meaning: "Nghiệm thực", formula: "Δ ≥ 0"},
+          {term: "Distinct roots", phonetic: "/dɪˈstɪŋkt ruːts/", meaning: "Nghiệm phân biệt", formula: "Δ > 0"},
+          {term: "Double root", phonetic: "/ˈdʌbəl ruːt/", meaning: "Nghiệm kép", formula: "Δ = 0"},
+          {term: "No real root", phonetic: "/noʊ riːəl ruːt/", meaning: "Vô nghiệm thực", formula: "Δ < 0"},
+          {term: "Concave up", phonetic: "/kɒnˈkeɪv ʌp/", meaning: "Bề lõm hướng lên", formula: "a > 0"},
+          {term: "Concave down", phonetic: "/kɒnˈkeɪv daʊn/", meaning: "Bề lõm hướng xuống", formula: "a < 0"},
+          {term: "Maximum value", phonetic: "/ˈmæksɪməm ˈvæljuː/", meaning: "Giá trị lớn nhất", formula: "y_max (a < 0)"},
+          {term: "Minimum value", phonetic: "/ˈmɪnɪməm ˈvæljuː/", meaning: "Giá trị nhỏ nhất", formula: "y_min (a > 0)"},
+          {term: "Quadratic formula", phonetic: "/kwɒˈdrætɪk ˈfɔːrmjələ/", meaning: "Công thức nghiệm tổng quát", formula: "x = (-b ± √Δ) / 2a"},
+          {term: "Complete the square", phonetic: "/kəmˈpliːt ðə skwɛr/", meaning: "Phương pháp hoàn thành bình phương", formula: "(x + m)² = n"},
+          {term: "Factoring", phonetic: "/ˈfæktərɪŋ/", meaning: "Phân tích thành nhân tử", formula: "a(x - x₁)(x - x₂)"},
+          {term: "Product of roots", phonetic: "/ˈprɒdʌkt əv ruːts/", meaning: "Tích hai nghiệm", formula: "x₁x₂ = c/a"},
+          {term: "Sum of roots", phonetic: "/sʌm əv ruːts/", meaning: "Tổng hai nghiệm", formula: "x₁ + x₂ = -b/a"},
+          {term: "Parameter condition", phonetic: "/pəˈræmɪtər kənˈdɪʃən/", meaning: "Điều kiện tham số m", formula: "For required root types"}
+        ]
+      },
+      {
+        id: 5,
+        titleEn: "Unit 5: Right Triangle Trigonometry",
+        titleVi: "Unit 5: Hệ thức lượng & Tỉ số lượng giác tam giác vuông",
+        descEn: "Hypotenuse, Leg, Sine, Cosine, Tangent, Cotangent, Pythagorean",
+        descVi: "Cạnh huyền, Cạnh góc vuông, Sin, Cos, Tan, Cot, Định lý Pytago",
+        words: [
+          {term: "Right triangle", phonetic: "/raɪt ˈtraɪˌæŋɡəl/", meaning: "Tam giác vuông", formula: "Triangle with 90° angle"},
+          {term: "Hypotenuse", phonetic: "/haɪˈpɒtənuːs/", meaning: "Cạnh huyền", formula: "Longest side (opposite 90°)"},
+          {term: "Leg", phonetic: "/lɛɡ/", meaning: "Cạnh góc vuông", formula: "Adjacent / Opposite side"},
+          {term: "Pythagorean theorem", phonetic: "/pɪˌθæɡəˈriːən ˈθɪərəm/", meaning: "Định lý Pytago", formula: "a² + b² = c²"},
+          {term: "Sine", phonetic: "/saɪn/", meaning: "Sin (đối / huyền)", formula: "sin α = opp / hyp"},
+          {term: "Cosine", phonetic: "/ˈkoʊsaɪn/", meaning: "Cos (kề / huyền)", formula: "cos α = adj / hyp"},
+          {term: "Tangent", phonetic: "/ˈtændʒənt/", meaning: "Tan (đối / kề)", formula: "tan α = opp / adj"},
+          {term: "Cotangent", phonetic: "/ˈkoʊtændʒənt/", meaning: "Cot (kề / đối)", formula: "cot α = adj / opp"},
+          {term: "Adjacent side", phonetic: "/əˈdʒeɪsənt saɪd/", meaning: "Cạnh kề", formula: "Side next to angle"},
+          {term: "Opposite side", phonetic: "/ˈɒpəzɪt saɪd/", meaning: "Cạnh đối", formula: "Side across from angle"},
+          {term: "Altitude", phonetic: "/ˈæltɪtuːd/", meaning: "Đường cao ứng với cạnh huyền", formula: "h² = b'·c'"},
+          {term: "Projection", phonetic: "/prəˈdʒɛkʃən/", meaning: "Hình chiếu", formula: "b' and c' on hypotenuse"},
+          {term: "Trigonometric ratios", phonetic: "/ˌtrɪɡəˈnɒmɪtrɪk ˈreɪʃioʊz/", meaning: "Tỉ số lượng giác", formula: "sin, cos, tan, cot"},
+          {term: "Acute angle", phonetic: "/əˈkjuːt ˈæŋɡəl/", meaning: "Góc nhọn", formula: "< 90°"},
+          {term: "Complementary angles", phonetic: "/ˌkɒmplɪˈmɛntəri ˈæŋɡəlz/", meaning: "Hai góc phụ nhau (tổng 90°)", formula: "sin α = cos(90°-α)"},
+          {term: "Geometric mean", phonetic: "/ˌdʒiːəˈmɛtrɪk miːn/", meaning: "Trung bình nhân", formula: "b² = a·b'"},
+          {term: "Solve a triangle", phonetic: "/sɒlv ə ˈtraɪˌæŋɡəl/", meaning: "Giải tam giác vuông", formula: "Find all sides & angles"},
+          {term: "Angle of elevation", phonetic: "/ˈæŋɡəl əv ˌɛləˈveɪʃən/", meaning: "Góc nâng / Góc nhìn lên", formula: "Elevation angle"},
+          {term: "Angle of depression", phonetic: "/ˈæŋɡəl əv dɪˈprɛʃən/", meaning: "Góc hạ / Góc nhìn xuống", formula: "Depression angle"},
+          {term: "Approximate value", phonetic: "/əˈprɒksɪmət ˈvæljuː/", meaning: "Giá trị gần đúng", formula: "Rounded decimal"}
+        ]
+      },
+      {
+        id: 6,
+        titleEn: "Unit 6: Circles & Inscribed Angles",
+        titleVi: "Unit 6: Đường tròn & Góc với Đường tròn",
+        descEn: "Circle, Radius, Diameter, Chord, Tangent, Inscribed angle, Central angle",
+        descVi: "Đường tròn, Bán kính, Đường kính, Dây cung, Tiếp tuyến, Góc nội tiếp",
+        words: [
+          {term: "Circle", phonetic: "/ˈsɜːrkəl/", meaning: "Đường tròn", formula: "Set of points equidistant from center"},
+          {term: "Radius", phonetic: "/ˈreɪdiəs/", meaning: "Bán kính (r)", formula: "Center to circumference"},
+          {term: "Diameter", phonetic: "/daɪˈæmɪtər/", meaning: "Đường kính (d)", formula: "d = 2r (passes center)"},
+          {term: "Chord", phonetic: "/kɔːrd/", meaning: "Dây cung", formula: "Line connecting 2 points on circle"},
+          {term: "Arc", phonetic: "/ɑːrk/", meaning: "Cung tròn", formula: "Part of circumference"},
+          {term: "Tangent line", phonetic: "/ˈtændʒənt laɪn/", meaning: "Đường tiếp tuyến", formula: "Perpendicular to radius at contact point"},
+          {term: "Secant line", phonetic: "/ˈsiːkənt laɪn/", meaning: "Cát tuyến", formula: "Line intersecting circle at 2 points"},
+          {term: "Central angle", phonetic: "/ˈsɛntrəl ˈæŋɡəl/", meaning: "Góc ở tâm", formula: "Vertex at center"},
+          {term: "Inscribed angle", phonetic: "/ɪnˈskraɪbd ˈæŋɡəl/", meaning: "Góc nội tiếp", formula: "Vertex on circle"},
+          {term: "Cyclic quadrilateral", phonetic: "/ˈsɪklɪk ˌkwɒdrɪˈlætərəl/", meaning: "Tứ giác nội tiếp", formula: "Opposite angles sum to 180°"},
+          {term: "Semicircle", phonetic: "/ˈsɛmiˌsɜːrkəl/", meaning: "Nửa đường tròn", formula: "180° arc (inscribed right angle)"},
+          {term: "Circumcircle", phonetic: "/ˈsɜːrkəmˌsɜːrkəl/", meaning: "Đường tròn ngoại tiếp", formula: "Passes all triangle vertices"},
+          {term: "Incircle", phonetic: "/ˈɪnˌsɜːrkəl/", meaning: "Đường tròn nội tiếp", formula: "Tangent to all triangle sides"},
+          {term: "Perpendicular from center", phonetic: "/ˌpɜːrpənˈdɪkjələr/", meaning: "Quan hệ vuông góc giữa đường kính và dây cung", formula: "Bisects the chord"},
+          {term: "Intersepted arc", phonetic: "/ɪnˈtɜːrsɛptɪd ɑːrk/", meaning: "Cung bị chắn", formula: "Arc inside angle"},
+          {term: "Alternate segment theorem", phonetic: "/ˈɔːltərnət ˈsɛɡmənt/", meaning: "Góc giữa tiếp tuyến và dây cung", formula: "Equals inscribed angle in alternate segment"},
+          {term: "Concurrency", phonetic: "/kənˈkʌrənsi/", meaning: "Đồng quy", formula: "Intersecting at one point"},
+          {term: "Orthocenter", phonetic: "/ˈɔːrθoʊˌsɛntər/", meaning: "Trực tâm", formula: "Intersection of altitudes"},
+          {term: "Centroid", phonetic: "/ˈsɛntrɔɪd/", meaning: "Trọng tâm", formula: "Intersection of medians"},
+          {term: "Circumcenter", phonetic: "/ˈsɜːrkəmˌsɛntər/", meaning: "Tâm đường tròn ngoại tiếp", formula: "Intersection of perpendicular bisectors"}
+        ]
+      }
+    ];
+
+    /* APP STATE */
+    let userXP = parseInt(localStorage.getItem('mathlingo_xp') || '0');
+    let userStreak = parseInt(localStorage.getItem('mathlingo_streak') || '1');
+    let currentLang = localStorage.getItem('mathlingo_lang') || 'VI';
+    let completedLessons = JSON.parse(localStorage.getItem('mathlingo_completed') || '{}');
+    let focusModes = JSON.parse(localStorage.getItem('mathlingo_focus') || '{}');
+    let skippedModes = JSON.parse(localStorage.getItem('mathlingo_skipped') || '{}');
+
+    let activeLesson = { unitId: 1, lessonNum: 1 };
+    let lessonStep = 1;
+    let lessonDataCache = [];
+
+    // INIT
+    window.addEventListener('DOMContentLoaded', () => {
+      updateHeaderStats();
+      renderLearningPath();
+      applyLanguageUI();
+    });
+
+    function updateHeaderStats() {
+      document.getElementById('xpDisplay').innerText = userXP;
+      document.getElementById('streakDisplay').innerText = userStreak;
+      document.getElementById('langLabel').innerText = currentLang;
+      localStorage.setItem('mathlingo_xp', userXP);
+      localStorage.setItem('mathlingo_streak', userStreak);
+      localStorage.setItem('mathlingo_lang', currentLang);
+    }
+
+    function toggleLanguage() {
+      currentLang = currentLang === 'VI' ? 'EN' : 'VI';
+      updateHeaderStats();
+      renderLearningPath();
+      applyLanguageUI();
+    }
+
+    function applyLanguageUI() {
+      if(currentLang === 'EN') {
+        document.getElementById('txtModeHeader').innerText = 'Personalized Learning Modes';
+        document.getElementById('txtModeStatus').innerText = 'Standard progression (6 Units)';
+        document.getElementById('txtBtnCustomize').innerText = 'Customize';
+        document.getElementById('txtModalConfigTitle').innerHTML = '<i class="fa-solid fa-sliders"></i> Math 9 Configuration';
+        document.getElementById('txtModalConfigDesc').innerHTML = '• <b>Focus Mode</b>: Boost vocabulary frequency for exam prep.<br>• <b>Skip & Backfill</b>: Hide known parts, backfill missing lessons.';
+        document.getElementById('txtBtnCloseConfig').innerText = 'Close';
+        document.getElementById('txtBtnSaveConfig').innerText = 'Save Config';
+      } else {
+        document.getElementById('txtModeHeader').innerText = 'Chế độ Học Tập Cá Nhân Hóa';
+        document.getElementById('txtModeStatus').innerText = 'Đang học theo tiến độ tiêu chuẩn (6 Units)';
+        document.getElementById('txtBtnCustomize').innerText = 'Tùy biến';
+        document.getElementById('txtModalConfigTitle').innerHTML = '<i class="fa-solid fa-sliders"></i> Cấu hình Chuyên đề Toán 9';
+        document.getElementById('txtModalConfigDesc').innerHTML = '• <b>Chuyên sâu (Focus)</b>: Tăng tần suất từ vựng phần trọng tâm.<br>• <b>Bỏ qua & Bù bài (Skip & Backfill)</b>: Ẩn phần đã biết, bù bài để đủ 480 từ.';
+        document.getElementById('txtBtnCloseConfig').innerText = 'Đóng';
+        document.getElementById('txtBtnSaveConfig').innerText = 'Lưu Cấu Hình';
+      }
+    }
+
+    // RENDER DUOLINGO MAP
+    function renderLearningPath() {
+      const container = document.getElementById('learningPath');
+      container.innerHTML = '';
+
+      let statusSummary = [];
+      UNITS_DATA.forEach(unit => {
+        if(focusModes[unit.id]) statusSummary.push(`Unit ${unit.id} (Focus)`);
+        if(skippedModes[unit.id]) statusSummary.push(`Unit ${unit.id} (Skipped)`);
+      });
+      if(statusSummary.length > 0) {
+        document.getElementById('txtModeStatus').innerText = statusSummary.join(' | ');
+      } else {
+        document.getElementById('txtModeStatus').innerText = currentLang === 'EN' ? 'Standard progression (6 Units)' : 'Đang học theo tiến độ tiêu chuẩn (6 Units)';
+      }
+
+      UNITS_DATA.forEach((unit) => {
+        const isSkipped = skippedModes[unit.id];
+        const isFocused = focusModes[unit.id];
+
+        let unitSec = document.createElement('div');
+        unitSec.className = 'unit-section';
+
+        let headerCls = isSkipped ? 'unit-header skipped' : (isFocused ? 'unit-header focused' : 'unit-header');
+        let badgeText = isSkipped ? (currentLang === 'EN' ? 'Skipped' : 'Đã bỏ qua') : (isFocused ? 'Focus 🔥' : `Unit ${unit.id}/6`);
+        
+        unitSec.innerHTML = `
+          <div class="${headerCls}">
+            <h3>${currentLang === 'EN' ? unit.titleEn : unit.titleVi}</h3>
+            <p>${currentLang === 'EN' ? unit.descEn : unit.descVi}</p>
+            <span class="unit-badge">${badgeText}</span>
+          </div>
+          <div class="path-container" id="path-unit-${unit.id}"></div>
+        `;
+        container.appendChild(unitSec);
+
+        const pathContainer = unitSec.querySelector(`#path-unit-${unit.id}`);
+
+        for(let lessonNum = 1; lessonNum <= 5; lessonNum++) {
+          let rowDiv = document.createElement('div');
+          rowDiv.className = 'node-row';
+
+          let key = `${unit.id}-${lessonNum}`;
+          let isCompleted = completedLessons[key] === true;
+          
+          let isCurrent = false;
+          if(!isSkipped) {
+            let foundActive = false;
+            for(let u of UNITS_DATA) {
+              if(skippedModes[u.id]) continue;
+              for(let l = 1; l <= 5; l++) {
+                if(!completedLessons[`${u.id}-${l}`]) {
+                  if(u.id === unit.id && l === lessonNum) isCurrent = true;
+                  foundActive = true;
+                  break;
+                }
+              }
+              if(foundActive) break;
+            }
+          }
+
+          let nodeCls = 'path-node';
+          if(lessonNum === 5) nodeCls += ' checkpoint';
+          if(isCompleted) nodeCls += ' completed';
+          else if(isCurrent) nodeCls += ' current';
+          else if(isSkipped) nodeCls += ' locked';
+          else {
+            let prevKey = lessonNum === 1 ? `${unit.id-1}-5` : `${unit.id}-${lessonNum-1}`;
+            if(!(unit.id === 1 && lessonNum === 1) && !completedLessons[prevKey]) {
+              nodeCls += ' locked';
+            }
+          }
+
+          let iconHtml = '<i class="fa-solid fa-lock"></i>';
+          if(isCompleted) iconHtml = '<i class="fa-solid fa-check"></i>';
+          else if(lessonNum === 5) {
+            iconHtml = isCurrent ? '<i class="fa-solid fa-trophy" style="color:#fff;"></i>' : '<i class="fa-solid fa-trophy"></i>';
+          } else {
+            iconHtml = isCurrent ? '<i class="fa-solid fa-star" style="color:#fff;"></i>' : '<i class="fa-solid fa-book"></i>';
+          }
+
+          rowDiv.innerHTML = `
+            <div class="${nodeCls}" onclick="startLesson(${unit.id}, ${lessonNum}, this)">
+              ${iconHtml}
+            </div>
+          `;
+          pathContainer.appendChild(rowDiv);
+        }
+      });
+    }
+
+    function openConfigModal() {
+      const listDiv = document.getElementById('configUnitsList');
+      listDiv.innerHTML = '';
+
+      UNITS_DATA.forEach(unit => {
+        let isFoc = focusModes[unit.id] ? 'checked' : '';
+        let isSkp = skippedModes[unit.id] ? 'checked' : '';
+
+        let row = document.createElement('div');
+        row.className = 'config-row';
+        row.innerHTML = `
+          <div>
+            <strong>Unit ${unit.id}: ${currentLang === 'EN' ? unit.titleEn.split(':')[1] : unit.titleVi.split(':')[1]}</strong>
+          </div>
+          <div style="display:flex; gap:16px;">
+            <label style="font-size:0.85rem; cursor:pointer;"><input type="checkbox" id="focus_${unit.id}" ${isFoc}> Chuyên sâu</label>
+            <label style="font-size:0.85rem; cursor:pointer;"><input type="checkbox" id="skip_${unit.id}" ${isSkp}> Bỏ qua</label>
+          </div>
+        `;
+        listDiv.appendChild(row);
+      });
+
+      document.getElementById('configModal').classList.add('active');
+    }
+
+    function saveConfiguration() {
+      UNITS_DATA.forEach(unit => {
+        const fBox = document.getElementById(`focus_${unit.id}`);
+        const sBox = document.getElementById(`skip_${unit.id}`);
+        if(fBox && fBox.checked) focusModes[unit.id] = true; else delete focusModes[unit.id];
+        if(sBox && sBox.checked) skippedModes[unit.id] = true; else delete skippedModes[unit.id];
+      });
+
+      localStorage.setItem('mathlingo_focus', JSON.stringify(focusModes));
+      localStorage.setItem('mathlingo_skipped', JSON.stringify(skippedModes));
+      closeModal('configModal');
+      renderLearningPath();
+    }
+
+    function closeModal(modalId) {
+      document.getElementById(modalId).classList.remove('active');
+    }
+
+    function startLesson(unitId, lessonNum, nodeEl) {
+      if(nodeEl && nodeEl.classList.contains('locked')) {
+        alert(currentLang === 'EN' ? 'Complete previous lessons first!' : 'Hãy hoàn thành các bài học trước đó!');
+        return;
+      }
+
+      activeLesson = { unitId, lessonNum };
+      lessonStep = 1;
+
+      const unitObj = UNITS_DATA.find(u => u.id === unitId);
+      document.getElementById('lessonTitle').innerText = `Unit ${unitId} - ${lessonNum === 5 ? 'Checkpoint Test (Bài 5)' : `Bài học ${lessonNum}`}`;
+      document.getElementById('lessonSubTitle').innerText = currentLang === 'EN' ? unitObj.titleEn : unitObj.titleVi;
+
+      if(lessonNum < 5) {
+        let startIdx = (lessonNum - 1) * 5;
+        lessonDataCache = unitObj.words.slice(startIdx, startIdx + 5);
+      } else {
+        lessonDataCache = unitObj.words;
+      }
+
+      renderLessonStep();
+      document.getElementById('lessonModal').classList.add('active');
+    }
+
+    function renderLessonStep() {
+      const body = document.getElementById('lessonBody');
+      const actionBtn = document.getElementById('lessonActionBtn');
+      const indicator = document.getElementById('lessonStepIndicator');
+      body.innerHTML = '';
+
+      if(activeLesson.lessonNum < 5) {
+        if(lessonStep <= lessonDataCache.length) {
+          indicator.innerText = `Từ vựng ${lessonStep}/${lessonDataCache.length}`;
+          let word = lessonDataCache[lessonStep - 1];
+          actionBtn.innerText = currentLang === 'EN' ? 'Continue' : 'Tiếp tục';
+          
+          body.innerHTML = `
+            <div style="text-align:center; margin-bottom:10px; color:var(--text-muted); font-size:0.9rem;">Chạm thẻ để lật xem nghĩa & công thức</div>
+            <div class="flashcard-wrapper" onclick="this.classList.toggle('flipped')">
+              <div class="flashcard-inner">
+                <div class="flashcard-front">
+                  <div class="card-term">${word.term}</div>
+                  <div class="card-phonetic">${word.phonetic}</div>
+                  <div style="font-size:0.85rem; color:var(--secondary);"><i class="fa-solid fa-rotate"></i> Lật thẻ</div>
+                </div>
+                <div class="flashcard-back">
+                  <div class="card-meaning">${word.meaning}</div>
+                  <div class="card-formula">${word.formula}</div>
+                </div>
+              </div>
+            </div>
+          `;
+        } else {
+          indicator.innerText = currentLang === 'EN' ? 'Practice Quiz' : 'Bài tập luyện tập';
+          actionBtn.innerText = currentLang === 'EN' ? 'Check Answer' : 'Kiểm tra';
+          
+          let targetWord = lessonDataCache[0];
+          let randomWrongs = UNITS_DATA[activeLesson.unitId-1].words.filter(w => w.term !== targetWord.term).sort(() => 0.5 - Math.random()).slice(0, 2);
+          let options = [targetWord, ...randomWrongs].sort(() => 0.5 - Math.random());
+
+          body.innerHTML = `
+            <div class="cloze-sentence">
+              Chọn nghĩa tiếng Việt chính xác của thuật ngữ: <span class="cloze-blank">${targetWord.term}</span> (${targetWord.formula})
+            </div>
+            <div class="options-grid" id="quizOptions">
+              ${options.map(opt => `
+                <button class="option-btn" onclick="selectOption(this, ${opt.term === targetWord.term})">
+                  <span>${opt.meaning}</span>
+                  <i class="fa-regular fa-circle"></i>
+                </button>
+              `).join('')}
+            </div>
+          `;
+        }
+      } else {
+        indicator.innerText = `Bài kiểm tra Unit ${activeLesson.unitId}`;
+        actionBtn.innerText = currentLang === 'EN' ? 'Submit Exam' : 'Nộp bài';
+
+        let testWord = lessonDataCache[Math.floor(Math.random() * lessonDataCache.length)];
+        let wrongs = UNITS_DATA[activeLesson.unitId-1].words.filter(w => w.term !== testWord.term).sort(() => 0.5 - Math.random()).slice(0, 3);
+        let opts = [testWord, ...wrongs].sort(() => 0.5 - Math.random());
+
+        body.innerHTML = `
+          <div style="background:var(--card-bg); padding:14px; border-radius:12px; margin-bottom:14px; border:2px solid var(--card-border);">
+            <strong><i class="fa-solid fa-triangle-exclamation" style="color:var(--gold);"></i> Kiểm tra năng lực Unit ${activeLesson.unitId}</strong>
+            <p style="font-size:0.85rem; color:var(--text-muted); margin-top:4px;">Yêu cầu đạt chuẩn để mở khóa Unit tiếp theo.</p>
+          </div>
+          <div class="cloze-sentence">
+            Thuật ngữ toán học nào tương ứng với ý nghĩa: <b>"${testWord.meaning}"</b> (Ký hiệu: <code>${testWord.formula}</code>)?
+          </div>
+          <div class="options-grid" id="quizOptions">
+            ${opts.map(o => `
+              <button class="option-btn" onclick="selectOption(this, ${o.term === testWord.term})">
+                <span>${o.term} <i>(${o.phonetic})</i></span>
+                <i class="fa-regular fa-circle"></i>
+              </button>
+            `).join('')}
+          </div>
+        `;
+      }
+    }
+
+    function selectOption(btnEl, isCorrect) {
+      document.querySelectorAll('.options-grid .option-btn').forEach(b => {
+        b.classList.remove('selected');
+        b.querySelector('i').className = 'fa-regular fa-circle';
+      });
+      btnEl.classList.add('selected');
+      btnEl.querySelector('i').className = 'fa-solid fa-circle-check';
+      window.selectedAnswerCorrect = isCorrect;
+    }
+
+    function handleLessonNext() {
+      if(activeLesson.lessonNum < 5 && lessonStep <= lessonDataCache.length) {
+        lessonStep++;
+        renderLessonStep();
+        return;
+      }
+
+      if(window.selectedAnswerCorrect === false) {
+        showFeedbackSheet(false, "Thuật ngữ này chưa chính xác. Hãy chú ý ghi nhớ công thức và định nghĩa chuẩn trong SGK Toán 9!");
+        window.selectedAnswerCorrect = undefined;
+        return;
+      }
+
+      userXP += 25;
+      completedLessons[`${activeLesson.unitId}-${activeLesson.lessonNum}`] = true;
+      localStorage.setItem('mathlingo_completed', JSON.stringify(completedLessons));
+      updateHeaderStats();
+
+      closeModal('lessonModal');
+      renderLearningPath();
+      showFeedbackSheet(true, "Chúc mừng! Bạn đã hoàn thành bài học xuất sắc và nhận +25 XP!");
+    }
+
+    function showFeedbackSheet(isCorrect, msg) {
+      const sheet = document.getElementById('feedbackSheet');
+      const title = document.getElementById('fbTitle');
+      const desc = document.getElementById('fbDesc');
+
+      if(isCorrect) {
+        sheet.className = 'feedback-sheet correct-sheet active';
+        title.innerHTML = '<i class="fa-solid fa-circle-check"></i><span>Tuyệt vời!</span>';
+      } else {
+        sheet.className = 'feedback-sheet active';
+        title.innerHTML = '<i class="fa-solid fa-circle-exclamation"></i><span>Chưa chính xác!</span>';
+      }
+      desc.innerText = msg;
+    }
+
+    function closeFeedbackSheet() {
+      document.getElementById('feedbackSheet').classList.remove('active');
+    }
+  </script>
+</body>
+</html>

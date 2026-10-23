@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Nunito', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #f7f9fa;
+    color: #1a202c;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Duolingo style 3D buttons & cards */
+.duo-button-green {
+  background-color: #58cc02;
+  box-shadow: 0 4px 0 #46a302;
+  transition: all 0.1s ease;
+}
+.duo-button-green:hover:not(:disabled) {
+  filter: brightness(1.05);
+}
+.duo-button-green:active:not(:disabled) {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #46a302;
+}
+
+.duo-button-blue {
+  background-color: #1cb0f6;
+  box-shadow: 0 4px 0 #1899d6;
+  transition: all 0.1s ease;
+}
+.duo-button-blue:hover:not(:disabled) {
+  filter: brightness(1.05);
+}
+.duo-button-blue:active:not(:disabled) {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #1899d6;
+}
+
+.duo-button-gray {
+  background-color: #e5e5e5;
+  box-shadow: 0 4px 0 #afafaf;
+  color: #777777;
+}
+
+.duo-button-white {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+  box-shadow: 0 4px 0 #e5e5e5;
+  transition: all 0.1s ease;
+}
+.duo-button-white:hover:not(:disabled) {
+  background-color: #f7f7f7;
+}
+.duo-button-white:active:not(:disabled) {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #e5e5e5;
+}
+
+.duo-button-yellow {
+  background-color: #ffc800;
+  box-shadow: 0 4px 0 #e5a400;
+  transition: all 0.1s ease;
+}
+.duo-button-yellow:hover:not(:disabled) {
+  filter: brightness(1.05);
+}
+.duo-button-yellow:active:not(:disabled) {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #e5a400;
+}
+
+.duo-node-3d {
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.18);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.duo-node-3d:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.22);
+}
+.duo-node-3d:active {
+  transform: translateY(6px);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

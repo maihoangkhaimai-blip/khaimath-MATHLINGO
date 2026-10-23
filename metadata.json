@@ -1,0 +1,6 @@
+{
+  "name": "MathLingo - Học Toán Tiếng Anh Phong Cách Duolingo",
+  "description": "Nền tảng học thuật ngữ và tư duy Toán học bằng Tiếng Anh chuẩn chương trình, học tự do mọi Unit với lộ trình tương tác phong cách Duolingo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
