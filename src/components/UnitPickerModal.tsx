@@ -127,7 +127,7 @@ export const UnitPickerModal: React.FC<UnitPickerModalProps> = ({
                     <div className="flex items-center gap-3 mt-1.5 text-[11px] text-slate-400">
                       <span className="flex items-center gap-1 text-slate-600 font-medium">
                         <BookOpen className="w-3 h-3 text-slate-400" />
-                        20 thuật ngữ
+                        {unit.words.length} thuật ngữ
                       </span>
                       <span>·</span>
                       <span className="font-semibold text-emerald-600">
@@ -172,7 +172,7 @@ export const UnitPickerModal: React.FC<UnitPickerModalProps> = ({
 
         {/* Footer */}
         <div className="p-4 border-t border-slate-100 bg-slate-50 flex items-center justify-between text-xs text-slate-500">
-          <span>Tổng cộng 6 Chuyên đề Toán 9 · 120 Thuật ngữ chuẩn</span>
+          <span>Tổng cộng 6 Chuyên đề Toán 9 · 240 Thuật ngữ chuẩn (40 từ/Unit)</span>
           <button
             onClick={onClose}
             className="px-4 py-2 bg-slate-800 hover:bg-slate-900 text-white font-bold rounded-xl"

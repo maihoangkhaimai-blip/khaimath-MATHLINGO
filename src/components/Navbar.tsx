@@ -27,14 +27,14 @@ export const Navbar: React.FC<NavbarProps> = ({
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
         {/* Zone 1: Brand */}
         <div className="flex items-center gap-3 shrink-0">
-          <div className="w-10 h-10 rounded-xl bg-emerald-500 text-white flex items-center justify-center font-black text-xl shadow-xs tracking-tighter">
-            π
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-emerald-400 text-white flex items-center justify-center font-black text-xl shadow-xs tracking-tighter">
+            K
           </div>
           <div className="flex flex-col">
-            <span className="font-extrabold text-xl tracking-tight text-slate-800 leading-none">
-              Math<span className="text-emerald-500">Lingo</span>
+            <span className="font-extrabold text-xl tracking-tight text-slate-900 leading-none">
+              KHAI<span className="text-emerald-500">MATH</span>
             </span>
-            <span className="text-[11px] font-semibold text-slate-600 tracking-wide">
+            <span className="text-[11px] font-semibold text-slate-500 tracking-wide">
               Toán 9 Tiếng Anh
             </span>
           </div>
@@ -62,10 +62,10 @@ export const Navbar: React.FC<NavbarProps> = ({
           <button
             onClick={onOpenDictionary}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border-2 border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-600 text-xs font-bold transition-colors shadow-xs"
-            title="Tra từ điển và luyện phát âm 120 thuật ngữ Toán 9"
+            title="Tra từ điển và luyện phát âm 240 thuật ngữ Toán 9"
           >
             <BookOpen className="w-3.5 h-3.5 text-slate-500" />
-            <span>Từ điển (120 từ)</span>
+            <span>Từ điển (240 từ)</span>
           </button>
 
           {/* Free mode toggle button */}
@@ -116,13 +116,14 @@ export const Navbar: React.FC<NavbarProps> = ({
             <span className="font-mono tabular-nums">{stats.xp}</span>
           </div>
 
-          {/* Hearts */}
+          {/* Hearts: Unlimited Energy */}
           <div
-            className="flex items-center gap-1 text-xs font-black text-rose-500"
-            title="Trái tim"
+            className="flex items-center gap-1.5 text-xs font-black text-rose-500 bg-rose-50 px-2.5 py-1 rounded-xl border border-rose-200 shadow-2xs"
+            title="Năng lượng thoải mái (Trái tim vô hạn)"
           >
-            <Heart className="w-4 h-4 fill-rose-500 text-rose-500" />
-            <span className="font-mono tabular-nums">{stats.hearts}</span>
+            <Heart className="w-4 h-4 fill-rose-500 text-rose-500 animate-pulse" />
+            <span className="font-black text-sm leading-none">∞</span>
+            <span className="text-[10px] text-rose-600 font-extrabold hidden sm:inline">Vô hạn</span>
           </div>
 
           {/* Practice drill CTA */}

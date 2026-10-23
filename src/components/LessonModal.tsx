@@ -53,9 +53,10 @@ export const LessonModal: React.FC<LessonModalProps> = ({
 
   // Build the questions for this lesson
   const questions: QuizQuestion[] = useMemo(() => {
-    // 5 words for this lesson
-    const startIdx = (lessonNum - 1) * 4;
-    const lessonWords = unit.words.slice(startIdx, startIdx + 4);
+    // 8 words for this lesson (40 words / 5 lessons)
+    const wordsPerLesson = Math.ceil(unit.words.length / 5);
+    const startIdx = (lessonNum - 1) * wordsPerLesson;
+    const lessonWords = unit.words.slice(startIdx, startIdx + wordsPerLesson);
 
     const list: QuizQuestion[] = [];
 
@@ -350,10 +351,14 @@ export const LessonModal: React.FC<LessonModalProps> = ({
             />
           </div>
 
-          {/* Hearts counter */}
-          <div className="flex items-center gap-1 font-mono font-bold text-rose-500 text-sm shrink-0">
-            <Heart className="w-5 h-5 fill-rose-500 text-rose-500" />
-            <span>{userHearts}</span>
+          {/* Hearts counter: Unlimited Energy */}
+          <div
+            className="flex items-center gap-1.5 font-bold text-rose-500 text-xs shrink-0 bg-rose-50 px-2.5 py-1 rounded-xl border border-rose-200"
+            title="Năng lượng thoải mái (Vô hạn)"
+          >
+            <Heart className="w-4 h-4 fill-rose-500 text-rose-500 animate-pulse" />
+            <span className="text-sm font-black leading-none">∞</span>
+            <span className="text-[10px] text-rose-600 font-extrabold hidden sm:inline">Vô hạn</span>
           </div>
         </div>
 

@@ -34,13 +34,13 @@ export const UnitPath: React.FC<UnitPathProps> = ({
 }) => {
   const [showMathLab, setShowMathLab] = useState<boolean>(true);
 
-  // 5 lessons per unit
+  // 5 lessons per unit (40 vocabulary words total)
   const lessonsMeta = [
-    { num: 1, title: 'Thuật ngữ & Khái niệm cốt lõi', icon: Star, desc: 'Từ vựng 1 - 4' },
-    { num: 2, title: 'Định nghĩa & Công thức toán', icon: BookOpen, desc: 'Từ vựng 5 - 8' },
-    { num: 3, title: 'Mối quan hệ & Phương pháp giải', icon: Zap, desc: 'Từ vựng 9 - 12' },
-    { num: 4, title: 'Định lý & Bài toán áp dụng', icon: Sparkles, desc: 'Từ vựng 13 - 16' },
-    { num: 5, title: 'Bài kiểm tra Checkpoint Unit', icon: Trophy, desc: 'Thuần thục 20 thuật ngữ' },
+    { num: 1, title: 'Thuật ngữ & Khái niệm cốt lõi', icon: Star, desc: 'Từ vựng 1 - 8' },
+    { num: 2, title: 'Định nghĩa & Công thức toán', icon: BookOpen, desc: 'Từ vựng 9 - 16' },
+    { num: 3, title: 'Mối quan hệ & Phương pháp giải', icon: Zap, desc: 'Từ vựng 17 - 24' },
+    { num: 4, title: 'Định lý & Bài toán áp dụng', icon: Sparkles, desc: 'Từ vựng 25 - 32' },
+    { num: 5, title: 'Bài kiểm tra Checkpoint Unit', icon: Trophy, desc: 'Thuần thục 40 thuật ngữ' },
   ];
 
   // Sinuous horizontal offset offsets for the Duolingo winding path
@@ -114,7 +114,7 @@ export const UnitPath: React.FC<UnitPathProps> = ({
             <div className="inline-flex items-center gap-2 bg-black/20 backdrop-blur-xs px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider">
               <span>Chuyên đề {unit.id}/6</span>
               <span>·</span>
-              <span>20 Thuật ngữ Toán</span>
+              <span>{unit.words.length} Thuật ngữ Toán</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-black tracking-tight leading-tight">
               {unit.titleVi}

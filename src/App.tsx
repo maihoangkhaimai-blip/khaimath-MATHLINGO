@@ -120,10 +120,7 @@ export default function App() {
   };
 
   const handleDeductHeart = () => {
-    setStats((prev) => ({
-      ...prev,
-      hearts: Math.max(1, prev.hearts - 1),
-    }));
+    // Unlimited energy mode: learners enjoy unrestricted practice without heart deduction
   };
 
   const handleEarnXp = (amount: number) => {
@@ -162,13 +159,16 @@ export default function App() {
                 <Compass className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="font-extrabold text-emerald-950 text-xs sm:text-sm">
-                  {stats.unlockedAllUnits
-                    ? 'Bạn đang ở Chế độ Tự Do: Tùy ý chọn bất kỳ Unit nào để học'
-                    : 'Chế độ Tuần Tự: Hoàn thành từng Unit để mở khóa'}
+                <h3 className="font-extrabold text-emerald-950 text-xs sm:text-sm flex items-center gap-2">
+                  <span>Chào mừng bạn đến với KHAIMATH</span>
+                  <span className="text-[10px] font-black text-rose-600 bg-rose-100 px-2 py-0.5 rounded-full">
+                    ⚡ Năng lượng vô hạn
+                  </span>
                 </h3>
                 <p className="text-[11px] text-emerald-700">
-                  Nhấn "Đổi Unit" ở góc trên hoặc thanh chọn nhanh bên dưới để đổi chuyên đề
+                  {stats.unlockedAllUnits
+                    ? 'Bạn có thể tùy ý học bất kỳ Unit nào và làm bài thoải mái không giới hạn tim'
+                    : 'Chế độ Tuần Tự: Hoàn thành từng Unit để mở khóa'}
                 </p>
               </div>
             </div>
@@ -320,7 +320,7 @@ export default function App() {
                   Kho từ điển Toán 9
                 </span>
                 <span className="text-[11px] text-slate-500">
-                  120 từ vựng có phát âm & công thức
+                  240 từ vựng có phát âm & công thức (40 từ/Unit)
                 </span>
               </div>
             </div>

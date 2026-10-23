@@ -61,7 +61,7 @@ export const VocabDictionary: React.FC<VocabDictionaryProps> = ({
                 Sổ tay Từ điển Thuật ngữ Toán 9
               </h3>
               <p className="text-xs text-slate-500 font-medium">
-                Tra cứu, nghe phát âm chuẩn và xem công thức của 120 thuật ngữ
+                Tra cứu, nghe phát âm chuẩn và xem công thức của 240 thuật ngữ (40 từ/Unit)
               </p>
             </div>
           </div>
@@ -97,7 +97,7 @@ export const VocabDictionary: React.FC<VocabDictionaryProps> = ({
                   : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
               }`}
             >
-              Tất cả (120)
+              Tất cả (240)
             </button>
             {units.map((u) => (
               <button
